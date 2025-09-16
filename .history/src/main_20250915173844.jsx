@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import BookCard from './components/BookCard';
-import 'main.css';
+import 'index.css';
 
 // UI for book card component
 
@@ -10,7 +10,7 @@ import 'main.css';
             const results = await Promise.all(
             isbnList.map((isbn) =>
                 fetch(`https://api.itbook.store/1.0/books/${isbn}`).then((res) =>
-                res.json()
+                response.json()
                 )
             )
             );
