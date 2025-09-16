@@ -2,7 +2,7 @@ import React from "react";
 
 // UI for book card component
 
-const BookCard = ({ image, title, authors, learnMore }) => {
+function BookCard({ image, title, authors, learnMore }) {
     return (
         <div className="book-card">
             <img src={image} className="book-image"/>
@@ -12,5 +12,4 @@ const BookCard = ({ image, title, authors, learnMore }) => {
         </div>
     );
 };
-
 export default BookCard;
