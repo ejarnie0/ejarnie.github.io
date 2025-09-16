@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import BookCard from './components/BookCard';
-import './main.css';
+import '/main.css';
 
 // UI for book card component
 
