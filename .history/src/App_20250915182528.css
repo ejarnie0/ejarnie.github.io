@@ -51,14 +51,14 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background: #ffbcef;
-  color: rgb(44, 0, 70);
+  background: #d89cca;
+  color: white;
+  cursor: pointer;
   padding: 0;
 }
 
 .add-button:hover {
-  background: #4c104f;
-  color: white;
+  background: #2c3659;
 }
 
 .footer {

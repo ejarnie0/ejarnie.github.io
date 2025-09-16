@@ -44,21 +44,19 @@ body {
 }
 
 .add-button {
-  width: 235px;
-  height: 335px;
-  border-radius: 12px;
-  display: flex;
+  width: 200px;
+  height: 300px;  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background: #ffbcef;
-  color: rgb(44, 0, 70);
+  background: #718cab;
+  color: white;
+  cursor: pointer;
   padding: 0;
 }
 
 .add-button:hover {
-  background: #4c104f;
-  color: white;
+  background: #2c3659;
 }
 
 .footer {

@@ -6,14 +6,14 @@
 
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'sans-serif';
-  background: #ffffff;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
 }
 
 .header {
-  background: #5a265c;
+  background: #572758;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -26,7 +26,8 @@ body {
   flex: 1;
 }
 
-.book-card{
+.book-card,
+.add-btn {
   width: 200px;
   height: 300px;
   border: 1px solid #ccc;
@@ -43,22 +44,20 @@ body {
   object-fit: contain;
 }
 
-.add-button {
-  width: 235px;
-  height: 335px;
-  border-radius: 12px;
+.add-btn {
+  height: 336px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background: #ffbcef;
-  color: rgb(44, 0, 70);
+  background: #718cab;
+  color: white;
+  cursor: pointer;
   padding: 0;
 }
 
-.add-button:hover {
-  background: #4c104f;
-  color: white;
+.add-btn:hover {
+  background: #2c3659;
 }
 
 .footer {
