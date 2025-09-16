@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0;
+  margin: -2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'sans-serif';
   background: #ffffff;
 }
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 2rem;
   flex: 1;
 }
@@ -51,7 +51,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background: #ceb3e0;
+  background: #ffbcef;
   color: rgb(44, 0, 70);
   padding: 0;
 }
