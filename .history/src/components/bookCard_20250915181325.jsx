@@ -8,7 +8,7 @@ const BookCard = ({ image, title, authors, learnMore }) => {
             <img src={image} className="book-image"/>
             <h2>{title}</h2>
             <h3 className="book-author">{authors}</h3>
-            <a href={learnMore} target="_blank" rel="noopener noreferrer">Learn more</a>
+            <a href={url} target="_blank" rel="noopener noreferrer">Learn more</a>
         </div>
     );
 };
